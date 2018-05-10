@@ -21,7 +21,9 @@ var dataTypes = AttributeList.dataTypes = {
   'title'      : 'enumerated-string',
   'type'       : 'enumerated-string',
   'uri'        : 'quoted-string',
-  'video'      : 'quoted-string'
+  'video'      : 'quoted-string',
+  'group-title': 'quoted-string',
+  'tvg-logo'   : 'quoted-string'
 };
 
 AttributeList.prototype.mergeAttributes = function mergeAttributes(attributes) {
